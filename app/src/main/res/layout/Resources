@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:textSize="30"
+        android:fontFamily="sans-serif-condensed"
+        android:inputType="textPersonName"
+        android:text="                  Resources" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:ems="10"
+        android:textSize="18"
+        android:inputType="textMultiLine"
+        android:text="   San Jose State's main website is located at
+                       http://www.sjsu.edu/"/>
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="         San Jose State students can find many
+             of the websites they need to use at
+                                my.sjsu.edu
+
+     The Martin Luther King Jr Library is a great
+     resource, check out the library and maybe a
+     few books at the official website.
+                        http://library.sjsu.edu/
+"
+        android:textSize="18" />
+
+</LinearLayout>
