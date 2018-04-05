@@ -1,23 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_blue_dark"
-    tools:context="com.sjsuapp.maryammostafavi.freshmanapp.MainPage"
-    tools:layout_editor_absoluteY="81dp">
-
-   <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
     android:background="?attr/colorPrimaryDark"
-    android:minHeight="250dp"
+    android:maxWidth="600dp"
+    android:minHeight="700dp"
+    android:minWidth="400dp"
     android:onClick="buttonOnClick"
-    tools:context="com.example.samanthajaime.sjsufreshamanapp"
+    tools:context="com.sjsuapp.maryammostafavi.freshmanapp.MainPage"
     tools:layout_editor_absoluteY="81dp">
 
     <TextView
@@ -25,24 +19,26 @@
         android:layout_width="291dp"
         android:layout_height="74dp"
         android:layout_marginBottom="165dp"
+        android:layout_marginTop="16dp"
         android:fontFamily="sans-serif-condensed"
-        android:text="@string/welcome_spartans"
+        android:text="welcome spartans"
         android:textAppearance="@style/TextAppearance.AppCompat.Title"
         android:textColor="@android:color/background_light"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.605"
+        app:layout_constraintHorizontal_bias="0.766"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <Button
-        android:id="@+id/button"
+        android:id="@+id/tips_button"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:layout_marginEnd="31dp"
-        android:layout_marginStart="75dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="56dp"
         android:background="#ffe226"
         android:text="Tips"
         app:layout_constraintBottom_toTopOf="@+id/button2"
@@ -53,12 +49,11 @@
         app:layout_constraintVertical_bias="0.49" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/maps_button"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:layout_marginBottom="16dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginStart="25dp"
+        android:layout_marginBottom="124dp"
+        android:layout_marginStart="48dp"
         android:background="#ffe226"
         android:text="Maps"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -70,28 +65,32 @@
         tools:layout_marginEnd="16dp"
         tools:layout_marginStart="16dp" />
 
+
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/resources_button"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginBottom="65dp"
+        android:layout_marginEnd="16dp"
         android:background="#ffe226"
         android:text="Resources"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button2"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.151" />
+
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/student_button"
         android:layout_width="150dp"
 
         android:layout_height="150dp"
 
         android:layout_marginBottom="30dp"
-        android:layout_marginEnd="65dp"
+        android:layout_marginEnd="16dp"
         android:layout_marginStart="45dp"
-        android:layout_marginTop="34dp"
+        android:layout_marginTop="236dp"
         android:background="#ffe226"
         android:text="Student Life"
         app:layout_constraintBottom_toTopOf="@+id/button2"
@@ -104,5 +103,5 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="20dp" />
+        app:layout_constraintGuide_begin="-11dp" />
 </android.support.constraint.ConstraintLayout>
