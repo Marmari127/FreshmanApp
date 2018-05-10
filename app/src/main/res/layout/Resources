@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <EditText
+    <TextView
         android:id="@+id/editText"
         android:layout_width="400dp"
         android:layout_height="80dp"
@@ -12,43 +12,54 @@
         android:textSize="30"
         android:fontFamily="sans-serif-condensed"
         android:inputType="textPersonName"
-        android:text="                  Resources" />
+        android:text="Resources" />
+        android:layout_centerHorizontal=”true”  />
+        
 
-    <EditText
-        android:layout_width="match_parent"
+    <TextView
+    android:layout_width="match_parent"
         android:layout_height="100dp"
         android:ems="10"
         android:textSize="18"
-        android:inputType="textMultiLine"
-        android:text="   San Jose State's main website is located at
-                       http://www.sjsu.edu/"/>
+        android:fontFamily="sans-serif-condensed"
+    android:text=”@string/linktoMySJSU”
+    android:id=”@+id/textView1”
+    android:layout_centerHorizontal=”true”  />
 
-    <EditText
-        android:layout_width="match_parent"
+
+<TextView
+    android:layout_width="match_parent"
         android:layout_height="100dp"
         android:ems="10"
         android:textSize="18"
-        android:inputType="textMultiLine"
-        android:text="       SJSU has a page just for new students.
- http://www.sjsu.edu/students/new/index.html"/>
-    <EditText
+        android:fontFamily="sans-serif-condensed"
+    android:text=”@string/linktoNewStudents”
+    android:id=”@+id/textView2”
+    android:layout_centerHorizontal=”true”  />
 
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
+
+
+<TextView
+    android:layout_width="match_parent"
+        android:layout_height="100dp"
         android:ems="10"
         android:textSize="18"
-        android:inputType="textMultiLine"
-        android:text="         San Jose State students can find many
-             of the websites they need to use at
-                                my.sjsu.edu
-
-     The Martin Luther King Jr Library is a great
-     resource, check out the library and maybe a
-     few books at the official website.
-                        http://library.sjsu.edu/
-"
-         />
+        android:fontFamily="sans-serif-condensed"
+    android:text=”@string/linktoSJSU”
+    android:id=”@+id/textView3”
+    android:layout_centerHorizontal=”true”  />
 
 
 
-</LinearLayout>
+<TextView
+    android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:ems="10"
+        android:textSize="18"
+        android:fontFamily="sans-serif-condensed"
+    android:text=”@string/linktoSJSUlibrary”
+    android:id=”@+id/textView4”
+    android:layout_centerHorizontal=”true”  />
+    
+</RelativeLayout>
+
