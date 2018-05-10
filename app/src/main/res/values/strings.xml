@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Freshman App</string>
+    
+    <string name="linktoMySJSU">
+        <a href= "my.sjsu.edu"> This link takes you to the SJSU portal </a>
+        </string>
+    
+    <string name="linktoNewStudents">
+        <a href= "http://www.sjsu.edu/students/new/index.html"> This link takes you to a page specifically for new students</a>
+        </string>
+    
+    <string name="linktoSJSU">
+        <a href= "www.sjsu.edu"> This link takes you to the official SJSU website</a>
+        </string>
+    
+    <string name="linktoSJSUlibrary">
+        <a href= " http://library.sjsu.edu"> This link takes you to the SJSU library</a>
+        </string>
+        
+    
 </resources>
