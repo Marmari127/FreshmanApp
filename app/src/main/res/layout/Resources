@@ -1,65 +1,87 @@
-?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context="com.example.samanthajaime.freshmanapp.ResourcesActivity">
+
 
     <TextView
-        android:id="@+id/editText"
-        android:layout_width="400dp"
-        android:layout_height="80dp"
-        android:ems="10"
-        android:textSize="30"
-        android:fontFamily="sans-serif-condensed"
-        android:inputType="textPersonName"
-        android:text="Resources" />
-        android:layout_centerHorizontal=”true”  />
-        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/catamaran_medium"
+        android:text="                 Uselful Links"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
 
     <TextView
-    android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:ems="10"
-        android:textSize="18"
-        android:fontFamily="sans-serif-condensed"
-    android:text=”@string/linktoMySJSU”
-    android:id=”@+id/textView1”
-    android:layout_centerHorizontal=”true”  />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/catamaran_medium"
+        android:text="1. mySJSU serves at the school portal for students, professors, and administrators"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
 
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/catamaran_medium"
+        android:text="@string/linktoMySJSU"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/colorPrimary"
+        android:textSize="22sp" />
 
-<TextView
-    android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:ems="10"
-        android:textSize="18"
-        android:fontFamily="sans-serif-condensed"
-    android:text=”@string/linktoNewStudents”
-    android:id=”@+id/textView2”
-    android:layout_centerHorizontal=”true”  />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/catamaran_medium"
+        android:text="2. The link below is for new students and includes useful information from the schools website"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
 
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/linktoNewStudents"
+        android:textColor="@color/colorPrimary"
+        android:textSize="22sp" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/catamaran_medium"
+        android:text="3. Having trouble looking up the school website? Click below."
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
 
-<TextView
-    android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:ems="10"
-        android:textSize="18"
-        android:fontFamily="sans-serif-condensed"
-    android:text=”@string/linktoSJSU”
-    android:id=”@+id/textView3”
-    android:layout_centerHorizontal=”true”  />
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/linktoSJSU"
+        android:textColor="@color/colorPrimary"
+        android:textSize="22sp" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/catamaran_medium"
+        android:text="4. Vist the MLK Library website and see what they have to offer for SJSU students and the community"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
 
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/catamaran_medium"
+        android:text="@string/linktoSJSU"
+        android:textColor="@color/colorPrimary"
+        android:textSize="22sp" />
 
-<TextView
-    android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:ems="10"
-        android:textSize="18"
-        android:fontFamily="sans-serif-condensed"
-    android:text=”@string/linktoSJSUlibrary”
-    android:id=”@+id/textView4”
-    android:layout_centerHorizontal=”true”  />
-    
-</RelativeLayout>
+</LinearLayout>
 
