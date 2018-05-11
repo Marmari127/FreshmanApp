@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:tooltipText="Tips">
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="catamaran_medium"
+        android:inputType="textMultiLine"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:text="1. Use ratemyprofessor.com, But go with an open mind the professor might have bad ratings, but you might end up liking them!"
+        android:textColor="@android:color/black"
+        android:textSize="21sp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+        android:fontFamily="@font/catamaran_medium"
+        android:inputType="textMultiLine"
+        android:text="2. Use ratemyprofessor.com, But go with an open mind the professor might have bad ratings, but you might end up liking them!"
+        android:textColor="@android:color/black"
+        android:textSize="21sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/catamaran_medium"
+        android:inputType="textMultiLine"
+        android:text="3. Make sure you check out the wellness center, for medical and sexual concerns, they give out free stuff!!"
+        android:textColor="@android:color/black"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/catamaran_medium"
+        android:inputType="textMultiLine"
+        android:text="4. Don't fill out your financial aid last minute, and if you want to receive State University Grant apply before March 2nd!"
+        android:textColor="@android:color/black"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/catamaran_medium"
+        android:inputType="textMultiLine"
+        android:text="5. Check your MySJSU and Canvas frequently"
+        android:textColor="@android:color/black"
+        android:textSize="22sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/download" />
+
+</LinearLayout>
