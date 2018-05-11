@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     android:background="?attr/colorPrimaryDark"
     android:maxWidth="600dp"
     android:minHeight="700dp"
-    android:minWidth="400dp"
-    android:onClick="buttonOnClick"
-    tools:context="com.sjsuapp.maryammostafavi.freshmanapp.MainPage"
+    android:minWidth="4dp"
+    tools:context="com.example.samanthajaime.freshmanapp.MainPage"
     tools:layout_editor_absoluteY="81dp">
 
     <TextView
@@ -38,6 +34,7 @@
 
     <Button
         android:id="@+id/tips_button"
+        android:onClick="tips"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginBottom="3dp"
@@ -57,6 +54,7 @@
 
     <Button
         android:id="@+id/maps_button"
+        android:onClick="maps"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginBottom="230dp"
@@ -77,6 +75,7 @@
 
     <Button
         android:id="@+id/resources_button"
+        android:onClick="resources"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginBottom="3dp"
@@ -95,10 +94,9 @@
 
     <Button
         android:id="@+id/student_button"
+        android:onClick="studentlife"
         android:layout_width="150dp"
-
         android:layout_height="150dp"
-
         android:layout_marginBottom="116dp"
         android:layout_marginEnd="40dp"
         android:background="#ffe226"
@@ -130,4 +128,6 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_begin="20dp" />
+
 </android.support.constraint.ConstraintLayout>
+
